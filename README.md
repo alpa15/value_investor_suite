@@ -53,9 +53,9 @@ Finally, you have to put the file in the folder of the repo and name it **"stock
 
 The P/E ratio is one of the most important metrics to be looked at of a stock, as Graham suggested. It is the ratio between the current price of the stock and the earning per share (EPS) of the stock. So it means that the larger this number is, the more overvalued the stock is at the current price. On the opposite side, the smaller this number, the more undervalued the stock.
 The suggestion of Graham is following this map:
-P/E < 10 --> UNDERVALUED STOCK
-10 < P/E < 20 --> NORMAL STOCK
-P/E > 20 --> OVERVALUED STOCK
+- P/E < 10 --> UNDERVALUED STOCK
+- 10 < P/E < 20 --> NORMAL STOCK
+- P/E > 20 --> OVERVALUED STOCK
 
 What the "Value Investor Suite" wants to do is analysing this extremely important index sector by sector, in order to understand the distribution of the PE ratios by sector, the most important quantiles, and the threshold PE ratio values to be looked at for every company of each sector. Below it is possible see example outputs of the program, with the distribution and the boxplot of the PE ratios.
 
@@ -85,7 +85,7 @@ Similarly to the PE ratios, the distribution and the boxplot of capitalizations 
 </p>
 
 ## Financial Analysis
-The output of the "main_value_investor_suite.ipynb" file represents all the distributions of PE ratios and of capitalizations. In addition, based on the entire list of stocks contained into the "stocs_list.xls" file, the output contains also the stocks compatible with the rules defined by Benjamin Graham. Obviously, a lot of other factors are important in the evaluation of a stock, like timing, how much time keep the investment on, so this code displays only a little part of the Graham theories.
+The output of the *"main_value_investor_suite.ipynb"* file represents all the distributions of PE ratios and of capitalizations. In addition, based on the entire list of stocks contained into the *"stocs_list.xls"* file, the output contains also the stocks compatible with the rules defined by Benjamin Graham. Obviously, a lot of other factors are important in the evaluation of a stock, like timing, how much time keep the investment on, so this code displays only a little part of the Graham theories.
 
 **Disclaimer** *The possible outputs that can be obtained with this programming code are NOT intended as investment advice, but are simply the result of analyses performed following Graham's method. The ideas of Benjamin Graham are NOT limited to these 2 elements shown in this code, but are much more, so it is advisable reading and informing on the "value investing" theory before any action. Every possible investment must be weighed, reasoned and decided upon individually by the person performing it. This code is intended merely as a support for stock analyses and no responsibility is taken for what are the outputs obtained.*
 
