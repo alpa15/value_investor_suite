@@ -1,7 +1,7 @@
 # VALUE INVESTOR SUITE
 
 <p align="center">
-    <img src="media/ben_graham_quote.png" width="450">
+    <img src="media/ben_graham_quote.PNG" width="450">
 </p>
 
 Welcome to the Value Investor Suite (VIS)
@@ -25,6 +25,7 @@ As the name of the repository suggests, this suite has been thought, designed an
 In order to make the code work, you need to have a file where all the stocks of your interest are present and are in the following form:
 
 | InstrID | Description | PV | Symbol | Sector | Capitalization | DividendYield | PERatio | Currency |
+| :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            |
 | US5949181045 | Microsoft Corp | NASDAQ | MSFT | TECHNO | 3125 | 0.67 | 37.45 | USD |
 | US9311421039 | Walmart Inc | NYSE | WMT | SERVIC | 455.7 | 1.35 | 28.18 | USD |
 | FR0000121014 | Lvmh Moet Hennessy Louis Vuitton SE | EURONEXT | MC | CYCLIC | 403.4 | 1.55 | 25.26 | EUR |
@@ -45,7 +46,7 @@ Finally, you have to put the file in the folder of the repo and name it **"stock
 
 ## P/E Analysis
 <p align="center">
-    <img src=".github/media/pe_ratio.png" width="350">
+    <img src="media/pe_ratio.PNG" width="350">
     <br>
     <sup>P/E ratio formula</sup>
 </p>
@@ -59,15 +60,15 @@ P/E > 20 --> OVERVALUED STOCK
 What the "Value Investor Suite" wants to do is analysing this extremely important index sector by sector, in order to understand the distribution of the PE ratios by sector, the most important quantiles, and the threshold PE ratio values to be looked at for every company of each sector. Below it is possible see example outputs of the program, with the distribution and the boxplot of the PE ratios.
 
 <p align="center">
-    <img src=".github/media/pe_ratio_distribution.png" width="300">
-    <img src=".github/media/pe_ratio_boxplot.png" width="300">
+    <img src="media/pe_ratio_distribution.PNG" width="300">
+    <img src="media/pe_ratio_boxplot.PNG" width="300">
     <br>
     <sup>Examples of results displayed by the code: (Left) P/E ratio distribution - (Right) P/E ratio boxplot</sup>
 </p>
 
 ## Capitalization Analysis
 <p align="center">
-    <img src=".github/media/global_capitalization.jpeg" width="350">
+    <img src="media/global_capitalization.jpeg" width="350">
     <br>
     <sup>Global capitalization</sup>
 </p>
@@ -77,8 +78,8 @@ The capitalization is another key factor for a company. The larger is the capita
 Similarly to the PE ratios, the distribution and the boxplot of capitalizations of every sector are obtained as output of the repo.
 
 <p align="center">
-    <img src=".github/media/capitalization_distribution.png" width="300">
-    <img src=".github/media/capitalization_boxplot.png" width="300">
+    <img src="media/capitalization_distribution.PNG" width="300">
+    <img src="media/capitalization_boxplot.PNG" width="300">
     <br>
     <sup>Examples of results displayed by the code: (Left) Capitalization distribution - (Right) Capitalization boxplot</sup>
 </p>
@@ -89,5 +90,5 @@ The output of the "main_value_investor_suite.ipynb" file represents all the dist
 **Disclaimer** *The possible outputs that can be obtained with this programming code are NOT intended as investment advice, but are simply the result of analyses performed following Graham's method. The ideas of Benjamin Graham are NOT limited to these 2 elements shown in this code, but are much more, so it is advisable reading and informing on the "value investing" theory before any action. Every possible investment must be weighed, reasoned and decided upon individually by the person performing it. This code is intended merely as a support for stock analyses and no responsibility is taken for what are the outputs obtained.*
 
 <p align="right">
-    <img src=".github/media/alpa15_with_approval.png" width="150">
+    <img src="media/alpa15_with_approval.PNG" width="150">
 </p>
