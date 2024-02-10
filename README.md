@@ -1,15 +1,15 @@
 # VALUE INVESTOR SUITE
 
 <p align="center">
-    <img src=".github/media/ben_graham_quote.png" width="450">
+    <img src="media/ben_graham_quote.png" width="450">
 </p>
 
 Welcome to the Value Investor Suite (VIS)
 _____________
-As the name of the repository suggests, this suite has been thought, designed and developed to use the tools revealed by Dr. [Benjamin Graham](https://en.wikipedia.org/wiki/Benjamin_Graham) with his ["value investing"](en.wikipedia.org/wiki/Value_investing) theory. Indeed, he changed the perspective of investments, suggesting a more analytical approach, thanks to which studying every stock starting from its fundamentals. He wanted every investor to define his/her financial decisions after having proved the value of a certain stock, given by its historical data. Benjamin Graham is also known to be the mentor of Warren Buffett, who indeed started his financial career working at Graham's dependencies.
+As the name of the repository suggests, this suite has been thought, designed and developed to use the tools revealed by Dr. [Benjamin Graham](https://en.wikipedia.org/wiki/Benjamin_Graham) with his ["value investing"](https://en.wikipedia.org/wiki/Value_investing) theory. Indeed, he changed the perspective of investments, suggesting a more analytical approach, thanks to which studying every stock starting from its fundamentals. He wanted every investor to define his/her financial decisions after having proved the value of a certain stock, given by its historical data. Benjamin Graham is also known to be the mentor of Warren Buffett, who indeed started his financial career working at Graham's dependencies.
 
 <p align="center">
-    <img src=".github/media/ben_graham.jpg" width="450">
+    <img src="media/ben_graham.jpg" width="450">
     <br>
     <sup>Benjamin Graham and the book <a href="https://en.wikipedia.org/wiki/The_Intelligent_Investor" target="_blank">"The Intelligent Investor"</a> this code is based on</a></sup>
 </p>
@@ -25,13 +25,9 @@ As the name of the repository suggests, this suite has been thought, designed an
 In order to make the code work, you need to have a file where all the stocks of your interest are present and are in the following form:
 
 | InstrID | Description | PV | Symbol | Sector | Capitalization | DividendYield | PERatio | Currency |
-| :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            |
 | US5949181045 | Microsoft Corp | NASDAQ | MSFT | TECHNO | 3125 | 0.67 | 37.45 | USD |
-| :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            |
 | US9311421039 | Walmart Inc | NYSE | WMT | SERVIC | 455.7 | 1.35 | 28.18 | USD |
-| :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            |
 | FR0000121014 | Lvmh Moet Hennessy Louis Vuitton SE | EURONEXT | MC | CYCLIC | 403.4 | 1.55 | 25.26 | EUR |
-| :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            | :---:            |
 
 where:
 - "InstrID" represents the ISIN code;
